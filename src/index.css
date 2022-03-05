@@ -45,7 +45,8 @@ code {
 }
 
 .hero{
-  padding: 6em 0;
+  padding: 8em 0;
+  min-height: calc(100vh - 115px)
 }
 .hero--heading{}
 .hero--title{
@@ -60,4 +61,53 @@ code {
   line-height: 2em;
   letter-spacing: 1px;
   color: #0000009a;
+}
+
+/* PROJECT SECTION*/
+
+.projects{
+  display: flex;
+  margin-bottom: 2em;
+}
+.projects--items{
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+.projects--item{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  border: 1px solid rgba(97, 95, 95, 0.137);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.projects--imageWrapperLink{
+  
+  
+}
+.projects--imageWrapperLink img{
+  width: 100%;
+  transition: transform .4s; 
+  
+}
+.projects--imageWrapperLink img:hover{
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+
+
+
+.projects--headingWrapper{
+  padding: 1em;
+}
+.projects--title{
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #0000007a;
+}
+.projects--description{
+  font-size: 1em;
+  color: #00000067;
 }
