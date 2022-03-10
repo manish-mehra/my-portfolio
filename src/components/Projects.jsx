@@ -1,5 +1,4 @@
-import React from 'react'
-
+import { Link } from "react-router-dom"
 
 
 const projectsList = [
@@ -32,9 +31,9 @@ export default function Projects() {
             {
                 projectsList.map((project)=>{
                     return  <li key = {project.name} className = "projects--item">
-                        <a href={project.link} className = "projects--imageWrapperLink">
+                        <Link to={project.link} className = "projects--imageWrapperLink">
                             <img src={project.image} alt={project.description}/>
-                        </a>
+                        </Link>
                         <span className='projects--headingWrapper'>
                             <p className='projects--title'>{project.name}</p>
                             <p className='projects--description'>{project.description}</p>

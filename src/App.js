@@ -1,13 +1,16 @@
-import Header from "./components/Header"
-import Hero from "./components/Hero"
-import Projects from "./components/Projects"
+import { Routes, Route } from "react-router-dom"
+import Home from "./pages/Home"
+import About from "./pages/About"
+import CryptoUpdates from "./pages/CryptoUpdates"
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Hero/>
-      <Projects/>
+      <Routes>
+        <Route path="/" element={ <Home/> } />
+        <Route path = "/about" element = {<About/>}/>
+        <Route path = "/crypto-updates-india" element = {<CryptoUpdates/>}/>
+      </Routes>
     </div>
   );
 }
