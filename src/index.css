@@ -13,7 +13,6 @@ body {
     font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 0 10em;
 }
 
 code {
@@ -29,7 +28,8 @@ code {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 2em;
+  padding: 2em 10em;
+  
 }
 
 .header--menu{
@@ -45,7 +45,7 @@ code {
 }
 
 .hero{
-  padding: 8em 0;
+  padding: 8em 10em;
   min-height: calc(100vh - 115px)
 }
 .hero--heading{}
@@ -68,6 +68,7 @@ code {
 .projects{
   display: flex;
   margin-bottom: 2em;
+  padding: 0 10em;
 }
 .projects--items{
   display: flex;
@@ -131,7 +132,32 @@ Editor style
   padding: 0 10rem;
   color: #0000009a;
 }
+.editor--imageContainer{
+  padding: 0 10em;
+  background: rgba(231, 229, 229, 0.24);
+  margin: 3em 0;
+}
 .editor--image{
   width: 100%;
-  margin: 2em 0;
+  display: block;
+}
+
+/* small screen */
+
+@media only screen and (max-width: 750px) {
+  .header{
+    padding: 2em;
+  }
+  .hero {
+    padding: 2em;
+  }
+  .projects{
+    padding: 0 2em;
+  }
+  .editor--para{
+    padding: 0 2em;
+  }
+  .editor--imageContainer{
+    padding: 0 1em;
+  }
 }

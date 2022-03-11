@@ -26,7 +26,7 @@ export default function CryptoUpdates() {
 
             <p className="editor--para">I didn't have any serious interest in cryptocurrencies, but I still prefer to stay informed on this subject. Finding information, precisely enough information, is getting tedious these days. You visit a website and then proceed to visit ten more sites. This compulsion to cram your head with more information is humans' natural tendency. Moreover, every site you visit, either they are filled with loads of ads or trying to sell you some uncanny scheme. Initially, I planned to make a cryptocurrency price tracker using React. And it would use some freely available price tracking API. </p>
 
-            <div>
+            <div className="editor--imageContainer">
                 <img src="https://user-images.githubusercontent.com/31545725/157828358-380ceeb4-8b62-4654-8ec1-a20448617ddf.png" alt="" className="editor--image"/>
             </div>
 
@@ -34,7 +34,7 @@ export default function CryptoUpdates() {
             But then, I found myself scrolling through different news sites to read the headlines. As the reading from only one news source is not a reliable way of staying informed these days, this makes this whole thing very time-consuming. So, I decided to attach some sort of curated list of headlines from different news sites. Instead of consuming a news API, I decided to build my API using node js and deployed it to Heroku. 
             </p>
 
-            <div>
+            <div className="editor--imageContainer">
                 <img src="https://user-images.githubusercontent.com/31545725/157827521-1cc11bed-cd0f-49b9-b116-43df364c91fc.png" alt="" className="editor--image"/>
             </div>
 
@@ -42,7 +42,7 @@ export default function CryptoUpdates() {
             So what it does is that it scrapes the web page and for that I used cheerio. Cheerio simply parses markup and provides an API for manipulating the resulting data structure. It doesn't load any CSS or script or load anything from external resources. In simpler terms, it only fetched the HTML file. For every news site, I set up a route that forwards requests to controller functions. Because every news site has a different structure, you have to write different query functions for independent pages.
             </p>
 
-            <div>
+            <div className="editor--imageContainer">
                 <img src="https://user-images.githubusercontent.com/31545725/157827552-306b0ff4-d58f-4879-a42f-72028740f233.png" alt="" className="editor--image"/>
             </div>
 
