@@ -15,7 +15,15 @@ export default function CryptoUpdates() {
                 </p>
 
                 <p className='hero--subtitle'>
-                Check out the site <a href="https://crypto-updates-india.netlify.app/" target="_blank">here</a>
+                Check out the site <a href="https://crypto-updates-india.netlify.app/" target="_blank">here</a> or source <a href="https://github.com/manish-mehra/crypto-updates-india" target="_blank">code</a>
+                </p>
+
+                <p className='technology-used'>
+                INDIVIDUAL PROJECT / 
+                <span>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="react-icon"/>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Node.js_logo_2015.svg" alt="nodejs image" />
+                </span>
                 </p>
             </div>
         </div>
