@@ -157,6 +157,7 @@ Editor style
 .editor--image{
   width: 100%;
   display: block;
+  margin: 1em 0;
 }
 
 /* small screen */
