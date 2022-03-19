@@ -29,6 +29,8 @@ export default function CryptoUpdates() {
         </div>
         </>
 
+        <img src="https://user-images.githubusercontent.com/31545725/159124794-6926ba6f-0bc1-4463-b062-c758786d1415.png" alt="crypto-update-image" className="editor--image"/>
+
         <div className="editor--container">
             <p className="editor--para h1">About</p>
 

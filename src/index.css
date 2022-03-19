@@ -142,11 +142,12 @@ Editor style
   font-size: 24px;
   font-weight: 700;
   color: #000000bd;
+  margin-top: 3em;
 }
 .editor--para{
   font-size: 18px;
   line-height: 2em;
-  padding: 0 10rem;
+  padding: 0.5em 10rem;
   color: #0000009a;
 }
 .editor--imageContainer{
@@ -173,7 +174,7 @@ Editor style
     padding: 0 2em;
   }
   .editor--para{
-    padding: 0 2em;
+    padding: 0.5em 2em;
   }
   .editor--imageContainer{
     padding: 0 1em;

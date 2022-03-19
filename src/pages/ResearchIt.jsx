@@ -28,14 +28,14 @@ export default function ResearchIt() {
         </div>
         </>
 
+        <img src="https://user-images.githubusercontent.com/31545725/158547435-5c6918d5-4fb0-476c-a341-7481cb15a3e9.png" alt="research-it image" className="editor--image"/>
+
         <div className="editor--container">
+            
+            
             <p className="editor--para h1">About</p>
 
             <p className="editor--para">Research It was my first team project as an aspiring web developer. I build this project along with the two other student developers remotely during the coronavirus pandemic. The problem was put forward by one of the teammates, who was having a hard time finding research papers. He talked about this problem to his classmates and they were in the same place. Even though there exist so many research paper stores online, it's still a time-consuming task to find research papers accordingly to your curriculum. </p>
-
-            <div className="editor--imageContainer">
-                <img src="https://user-images.githubusercontent.com/31545725/158547435-5c6918d5-4fb0-476c-a341-7481cb15a3e9.png" alt="research-it image" className="editor--image"/>
-            </div>
 
             <p className="editor--para">
             Instead of just building a simple site, we wanted to add a crucial feature and that was saving research paper for later reading or to a kind of shelve so that you don't have to search it again. For that, we needed some kind of login functionality with each user having their separate selves to store their papers in the library.
