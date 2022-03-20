@@ -29,6 +29,7 @@ code {
   align-items: center;
   justify-content: space-between;
   padding: 2em 10em;
+  border-top: 7px solid #80008096;
   
 }
 
@@ -37,11 +38,14 @@ code {
   gap: 2em;
 }
 .header--menu-option{
-  font-size: 1.2em;
+  font-size: 1.1em;
+}
+.header--menu-option a{
+  text-decoration: none;
   color: rgba(0, 0, 0, 0.562);
 }
 .header--logo{
-  width: 80px;
+  width: 100px;
 }
 
 .hero{
@@ -173,7 +177,11 @@ Editor style
 
 @media only screen and (max-width: 750px) {
   .header{
-    padding: 2em;
+    padding: 0.7em;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(7px);
+    background-color: #f6feff61;
   }
   .hero {
     padding: 2em;
@@ -186,5 +194,8 @@ Editor style
   }
   .editor--imageContainer{
     padding: 0 1em;
+  }
+  .editor--ul{
+    padding: 0.5em 5rem;
   }
 }
