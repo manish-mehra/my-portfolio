@@ -5,7 +5,9 @@ import CryptoUpdates from "./pages/CryptoUpdates"
 import ResearchIt from "./pages/ResearchIt"
 import Skidev from "./pages/Skidev"
 
+
 function App() {
+
   return (
     <div className="App">
       <Routes>

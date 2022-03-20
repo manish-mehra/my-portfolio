@@ -1,7 +1,13 @@
 import Header from "../components/Header"
+import {useEffect} from 'react'
 
 export default function ResearchIt() {
-  return (
+  
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
+    return (
     <div>
         <Header/>
         <>
