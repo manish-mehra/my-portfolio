@@ -5,19 +5,19 @@ const projectsList = [
     {
         name: "Crypto Updates India",
         description: "Track crypto prices and fetch latest headlines.",
-        image: "https://user-images.githubusercontent.com/31545725/156877184-1108c861-470d-4c75-98d5-a4d236b63540.png",
+        image: "https://user-images.githubusercontent.com/31545725/159154598-b0a55557-8b07-4cd8-9624-2f88daaeb08c.png",
         link: "/crypto-updates-india"
     },
     {
         name: "Research It",
         description: "A research paper store",
-        image: "https://user-images.githubusercontent.com/31545725/156877186-28d706e5-26d9-4ef3-9a49-5bccc6d0ac8a.png",
+        image: "https://user-images.githubusercontent.com/31545725/159154602-9581265f-1bd3-47d7-b53a-cf4ae1d2955a.png",
         link: "/research-it"
     },
     {
         name: "Skidev",
         description: "All in one place for students to start their programming journey",
-        image: "https://user-images.githubusercontent.com/31545725/156877189-e504b5f5-ece1-4335-bc5b-cb944b79d38e.png",
+        image: "https://user-images.githubusercontent.com/31545725/159154605-e7ae6be3-b78c-4eff-87bc-916bcd059b52.png",
         link: "/skidev"
     },
 
