@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 export default function Header() {
 
@@ -9,10 +8,7 @@ export default function Header() {
         <a href="/"><img src="https://user-images.githubusercontent.com/31545725/159151445-4532ed6d-4cf7-4d45-9db6-d7dbe68f309c.png" alt="logo" className='header--logo'/></a>
         <section className='header--menu'>
             <span className='header--menu-option'>
-              <Link to = "/">Work</Link>  
-            </span>
-            <span className='header--menu-option'>
-              <Link to = "/about">About</Link>  
+              <a href = "https://github.com/manish-mehra" target="_blank">Github</a>  
             </span>
         </section>
     </header>
